@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >Responsive Blog Section </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        </link>
+        <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'Lato', sans-serif;
+   
+}
+body{
+    background-image:url(https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.container{
+    width:100%;
+}
+.container  .row{
+    width:80%;
+    margin:auto;
+}
+.container  .row .header{
+    width:60%;
+    text-align:center;
+}
+.container  .row  .header h1{
+    text-align:right;
+    padding-top: 30px;
+    font-size: 45px;
+    color:#e19c30;
+}
+.container  .row   .header p{
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #6e6e6e;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    border-color: 2px black;
+}
+.content  .card{
+    flex:1;
+    margin:10px 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+    background-color:whitesmoke;
+}
+.content .card img{
+    width:230px;
+    height:auto;
+
+}
+.content  .card h2{
+    margin-top:10px;
+    margin-left:10px;
+    font-size:18px;
+    font-family: fantasy;
+}
+.content .card h3{
+    font-family:cursive;
+    margin-left:50px;
+}
+.content .card p{
+    font-size:15px;
+    color:#6e6e6e;
+    line-height:1.5;
+    padding :10px;
+}
+@media screen and (max-width: 768px){
+    .content {
+        flex-direction: column;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+           <div class="row">
+            <div class="header">
+                <h1>"Unveiling the Pinnacle of Top Cars"</h1>
+            </div>
+            <div class ="content">
+                <div class="card">
+                    <h2 >Lamborghini</h2>
+                    <h3>-Huracán EVO TT</h3>
+                    <img src="https://i.ytimg.com/vi/ipZS7F8KaTk/sddefault.jpg">
+                    
+                    <pre> <b>Engine:</b>
+        Type: 5.2-liter naturally aspirated V10
+        Horsepower: Approximately 630 hp
+        Torque: Approximately 443 lb-ft (600 Nm)
+<b>Performance:</b>
+        0-60 mph (0-100 km/h)
+        Top Speed: Over 202 mph (325 km/h)
+<b>Transmission:</b>
+        7-speed dual-clutch automatic
+<b>Drive Type:</b>
+         All-wheel drive 
+<b>Dimensions:</b>
+         Length: Approximately 178.86 inches 
+         Width: Approximately 76.06 inches 
+        Height: Approximately 45.87 inches 
+        Wheelbase: Approximately 103.14 inches </pre>
+            
+                    </div>
+                <div class="card">
+                    <h2 >Ferrari</h2>
+                    <h3>-296 GTB</h3>
+                    <img src="https://cdn.motor1.com/images/mgl/YAWneJ/s3/foto---ferrari-296-gtb-la-prova-su-strada.webp">
+                    <pre ><b>Engine:</b>
+     Type: V6 hybrid engine
+     Horsepower: Approximately 818 hp 
+     Torque: Not available
+<b>Performance:</b>
+     0-60 mph (0-100 km/h)
+<b>Transmission:</b>
+     8-speed dual-clutch automatic
+<b>Drive Type:</b>
+     Rear-wheel drive with hybrid assistance</pre>
+                    </div>
+                <div class ="card">
+                    <h2>Porsche</h2>
+                    <h3>-Carrera GT</h3>
+                    <img src="https://ic1.maxabout.us/autos/cars_india//P/2015/4/porsche-carrera-gt-p.jpg">
+    
+                    <pre><b>Engine:</b>
+     Type: 5.7-liter V10
+     Horsepower: 612 hp
+     Torque: 435 lb-ft (590 Nm)
+<b>Performance:</b>
+     0-60 mph (0-100 km/h)
+     Top Speed: 205 mph 
+<b>Transmission:</b>
+     6-speed manual transmission
+<b>Drive Type:</b>
+     Rear-wheel drive
+<b>Dimensions:</b>
+     Length: Approximately 181.6 inches 
+     Width: Approximately 76.9 inches 
+     Height: Approximately 45.9 inches 
+     Wheelbase: Approximately 107.5 inches </pre>
+                </div>
+                <div class ="card">
+                    <h2>McLaren</h2>
+                    <h3>-720S</h3>
+                    <img src="https://cdn.motor1.com/images/mgl/krMYM/s1/mclaren-720s-spider-by-mso.jpg">
+                    
+                    <pre><b>Engine:</b>
+     Type: 4.0-liter twin-turbocharged V8
+     Horsepower: 710 hp
+     Torque: 568 lb-ft (770 Nm)
+<b>Performance:</b>
+     0-60 mph (0-100 km/h)
+     Top Speed: 212 mph 
+<b>Transmission:</b>
+     7-speed dual-clutch automatic
+<b>Drive Type:</b>
+     Rear-wheel drive
+<b>Dimensions:</b>
+     Length: Approximately 178.9 inches
+     Width: Approximately 76 inches 
+     Height: Approximately 47.1 inches 
+     Wheelbase: Approximately 105.1 inches </pre>
+                </div>
+                
+            </div>
+    
+        </div>
+    </body>
+</html>
